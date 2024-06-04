@@ -30,6 +30,10 @@ const headers = [
         {{ new Date(item.Start).toLocaleString() }}
       </template>
     </v-data-table>
+    <p align="right">Powered by <a href="https://www.spigotmc.org/resources/bans-mysql-support-banning-gui-advanced-system.76083/" target="_blank">Minecraft Bans+</a><br>
+      前端实现:<a href="https://yuxiangwang0525.com" target="_blank">晚江右海</a><br>
+      后端:萌数次元大数据
+    </p>
   </div>
 </template>
 

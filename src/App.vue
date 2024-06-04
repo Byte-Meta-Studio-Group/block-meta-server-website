@@ -17,7 +17,7 @@
         首页
       </v-btn>
 
-      <v-btn text rounded>
+      <v-btn text rounded @click="this.$router.push('/rank')">
         光荣榜
       </v-btn>
       <v-btn text rounded @click="this.$router.push('/ban')">
@@ -61,7 +61,8 @@
         <v-card-text class="white--text pt-0">
           萌数次元方块元日记 — 版权所有 &copy;2019-{{ new Date().getFullYear() }} Moedigital s.r.o.
           <a href="https://moedigital.com" target="_blank">萌数次元 Moedigital</a><br>
-          官网前端设计:<a href="https://yuxiangwang0525.com" target="_blank">晚江右海</a> <a href="https://yang-qwq.top" target="_blank">Yang</a>
+          官网前端设计:<a href="https://yuxiangwang0525.com" target="_blank">晚江右海</a> <a href="https://yang-qwq.top" target="_blank">Yang</a><br>
+          梦方界®为萌数次元方块元日记的注册商标。
         </v-card-text>
       </v-card>
     </v-footer>
